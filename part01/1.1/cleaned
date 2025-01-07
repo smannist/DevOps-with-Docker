@@ -1,0 +1,23 @@
+Script started on 2025-01-07 19:34:27+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="169" LINES="23"]
+^[[Amannsami@lx2-fuxi345:~/Documents/projektit/DevOps-with-Docker/part01/1.1$ sudo docker run -d --name nginx1 nginx
+[sudo] password for mannsami:
+Sorry, try again.
+[sudo] password for mannsami:
+42b022337e23c19603ddb81fb3d581c1af3bef6a3f7b5797e4d8c105b9fc740f
+mannsami@lx2-fuxi345:~/Documents/projektit/DevOps-with-Docker/part01/1.1$ sudo docker run -d --name nginx2 nginx
+7d06ab49357905a457b8af03488b00380e133df682af322269dcf7c6adaf0766
+mannsami@lx2-fuxi345:~/Documents/projektit/DevOps-with-Docker/part01/1.1$ sudo docker run -d --name nginx3 nginx
+f239a671216a5548bacbada1495a129516e9755b6afdda450c7f26e96a78eae5
+mannsami@lx2-fuxi345:~/Documents/projektit/DevOps-with-Docker/part01/1.1$ sudo docker stop nginx3
+nginx3
+mannsami@lx2-fuxi345:~/Documents/projektit/DevOps-with-Docker/part01/1.1$ sudo docker stop nginx2
+nginx2
+mannsami@lx2-fuxi345:~/Documents/projektit/DevOps-with-Docker/part01/1.1$ sudo docker ps -a
+CONTAINER ID   IMAGE	 COMMAND		  CREATED	   STATUS		       PORTS	 NAMES
+f239a671216a   nginx	 "/docker-entrypoint.…"	  22 seconds ago   Exited (0) 13 seconds ago		 nginx3
+7d06ab493579   nginx	 "/docker-entrypoint.…"	  25 seconds ago   Exited (0) 11 seconds ago		 nginx2
+42b022337e23   nginx	 "/docker-entrypoint.…"	  29 seconds ago   Up 28 seconds	       80/tcp	 nginx1
+mannsami@lx2-fuxi345:~/Documents/projektit/DevOps-with-Docker/part01/1.1$ exit
+exit
+
+Script done on 2025-01-07 19:35:20+02:00 [COMMAND_EXIT_CODE="0"]

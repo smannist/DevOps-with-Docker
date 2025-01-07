@@ -1,0 +1,23 @@
+Script started on 2025-01-07 19:34:27+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="169" LINES="23"]
+^[[A[?2004h]0;mannsami@lx2-fuxi345: ~/Documents/projektit/DevOps-with-Docker/part01/1.1[01;32mmannsami@lx2-fuxi345[00m:[01;34m~/Documents/projektit/DevOps-with-Docker/part01/1.1[00m$ exit[Ksudo docke [Kr rn[Kun -d --name nginx1 nginc[Kx
+[?2004l[sudo] password for mannsami: 
+Sorry, try again.
+[sudo] password for mannsami: 
+42b022337e23c19603ddb81fb3d581c1af3bef6a3f7b5797e4d8c105b9fc740f
+[?2004h]0;mannsami@lx2-fuxi345: ~/Documents/projektit/DevOps-with-Docker/part01/1.1[01;32mmannsami@lx2-fuxi345[00m:[01;34m~/Documents/projektit/DevOps-with-Docker/part01/1.1[00m$ sudo docker run -d --name nginx1 nginx[C[C[1P nginx2 nginx
+[?2004l7d06ab49357905a457b8af03488b00380e133df682af322269dcf7c6adaf0766
+[?2004h]0;mannsami@lx2-fuxi345: ~/Documents/projektit/DevOps-with-Docker/part01/1.1[01;32mmannsami@lx2-fuxi345[00m:[01;34m~/Documents/projektit/DevOps-with-Docker/part01/1.1[00m$ sudo docker run -d --name nginx2 nginx[1P nginx3 nginx
+[?2004lf239a671216a5548bacbada1495a129516e9755b6afdda450c7f26e96a78eae5
+[?2004h]0;mannsami@lx2-fuxi345: ~/Documents/projektit/DevOps-with-Docker/part01/1.1[01;32mmannsami@lx2-fuxi345[00m:[01;34m~/Documents/projektit/DevOps-with-Docker/part01/1.1[00m$ sudo docker run -d --name nginx3 nginx[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ks[Ksr[Ktio[K[Kop nginx3
+[?2004lnginx3
+[?2004h]0;mannsami@lx2-fuxi345: ~/Documents/projektit/DevOps-with-Docker/part01/1.1[01;32mmannsami@lx2-fuxi345[00m:[01;34m~/Documents/projektit/DevOps-with-Docker/part01/1.1[00m$ sudo docker stop nginx3[K2
+[?2004lnginx2
+[?2004h]0;mannsami@lx2-fuxi345: ~/Documents/projektit/DevOps-with-Docker/part01/1.1[01;32mmannsami@lx2-fuxi345[00m:[01;34m~/Documents/projektit/DevOps-with-Docker/part01/1.1[00m$ sudo docer[K[Kker ps -a
+[?2004lCONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS                      PORTS     NAMES
+f239a671216a   nginx     "/docker-entrypoint.…"   22 seconds ago   Exited (0) 13 seconds ago             nginx3
+7d06ab493579   nginx     "/docker-entrypoint.…"   25 seconds ago   Exited (0) 11 seconds ago             nginx2
+42b022337e23   nginx     "/docker-entrypoint.…"   29 seconds ago   Up 28 seconds               80/tcp    nginx1
+[?2004h]0;mannsami@lx2-fuxi345: ~/Documents/projektit/DevOps-with-Docker/part01/1.1[01;32mmannsami@lx2-fuxi345[00m:[01;34m~/Documents/projektit/DevOps-with-Docker/part01/1.1[00m$ exit
+[?2004lexit
+
+Script done on 2025-01-07 19:35:20+02:00 [COMMAND_EXIT_CODE="0"]
