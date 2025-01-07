@@ -1,0 +1,58 @@
+Script started on 2025-01-07 20:06:03+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="169" LINES="19"]
+[?2004h]0;mannsami@lx2-fuxi345: ~/Documents/projektit/DevOps-with-Docker/part01/1.2[01;32mmannsami@lx2-fuxi345[00m:[01;34m~/Documents/projektit/DevOps-with-Docker/part01/1.2[00m$ sudo doc[Kcker ps -a
+[?2004l
+[sudo] password for mannsami: 
+CONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS                      PORTS     NAMES
+f239a671216a   nginx     "/docker-entrypoint.…"   31 minutes ago   Exited (0) 31 minutes ago             nginx3
+7d06ab493579   nginx     "/docker-entrypoint.…"   31 minutes ago   Exited (0) 31 minutes ago             nginx2
+42b022337e23   nginx     "/docker-entrypoint.…"   31 minutes ago   Up 31 minutes               80/tcp    nginx1
+[?2004h]0;mannsami@lx2-fuxi345: ~/Documents/projektit/DevOps-with-Docker/part01/1.2[01;32mmannsami@lx2-fuxi345[00m:[01;34m~/Documents/projektit/DevOps-with-Docker/part01/1.2[00m$ sudo cd[K[Kdocker ls [K[K[K[K imag els[K[K[K[Ke ls
+[?2004l
+REPOSITORY   TAG       IMAGE ID       CREATED       SIZE
+nginx        latest    f876bfc1cc63   5 weeks ago   192MB
+[?2004h]0;mannsami@lx2-fuxi345: ~/Documents/projektit/DevOps-with-Docker/part01/1.2[01;32mmannsami@lx2-fuxi345[00m:[01;34m~/Documents/projektit/DevOps-with-Docker/part01/1.2[00m$ sudodoc[K[K[K[K [Ki doc[K[K[K[K[Ko docker stop nging1[K[K[Knx1
+[?2004l
+nginx1
+[?2004h]0;mannsami@lx2-fuxi345: ~/Documents/projektit/DevOps-with-Docker/part01/1.2[01;32mmannsami@lx2-fuxi345[00m:[01;34m~/Documents/projektit/DevOps-with-Docker/part01/1.2[00m$ sudo docker conai[K[Ktainer prune
+[?2004l
+WARNING! This will remove all stopped containers.
+Are you sure you want to continue? [y/N] y
+Deleted Containers:
+f239a671216a5548bacbada1495a129516e9755b6afdda450c7f26e96a78eae5
+7d06ab49357905a457b8af03488b00380e133df682af322269dcf7c6adaf0766
+42b022337e23c19603ddb81fb3d581c1af3bef6a3f7b5797e4d8c105b9fc740f
+
+Total reclaimed space: 3.279kB
+[?2004h]0;mannsami@lx2-fuxi345: ~/Documents/projektit/DevOps-with-Docker/part01/1.2[01;32mmannsami@lx2-fuxi345[00m:[01;34m~/Documents/projektit/DevOps-with-Docker/part01/1.2[00m$ sudo docker ps -a
+[?2004l
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+[?2004h]0;mannsami@lx2-fuxi345: ~/Documents/projektit/DevOps-with-Docker/part01/1.2[01;32mmannsami@lx2-fuxi345[00m:[01;34m~/Documents/projektit/DevOps-with-Docker/part01/1.2[00m$ sudo docker image ls
+[?2004l
+REPOSITORY   TAG       IMAGE ID       CREATED       SIZE
+nginx        latest    f876bfc1cc63   5 weeks ago   192MB
+[?2004h]0;mannsami@lx2-fuxi345: ~/Documents/projektit/DevOps-with-Docker/part01/1.2[01;32mmannsami@lx2-fuxi345[00m:[01;34m~/Documents/projektit/DevOps-with-Docker/part01/1.2[00m$ sudo docker rm f876bfc1cc63[K[K[K[K[K[K[K[K[K[K[K[K[Ki nginx
+[?2004l
+Untagged: nginx:latest
+Untagged: nginx@sha256:42e917aaa1b5bb40dd0f6f7f4f857490ac7747d7ef73b391c774a41a8b994f15
+Deleted: sha256:f876bfc1cc63d905bb9c8ebc5adc98375bb8e22920959719d1a96e8f594868fa
+Deleted: sha256:e0f1c40b04bce92241b6a81812e29990b5ff711bfd3fb6817e4ec03f3f09cb72
+Deleted: sha256:f3764bf5781131fa5df6d78bcde2d5905c7d2451b7084ff73d6cbb679fa2a573
+Deleted: sha256:d0516283d34466f5e50f48966ce9c304cb665bd9a6fe984ca21166ff6d519264
+Deleted: sha256:bf29edbdcdd853fb80ac4623db054796c3050017aa68dd79958ab61762fa85dc
+Deleted: sha256:344c966b8cc1774f55cf5f6fb3c438c497a2a84d4e9e09befc7e1623f97029bf
+Deleted: sha256:59db063f63f68b942f3c60769828c15efe9abd12362d5c6d925a0484bbf031d0
+Deleted: sha256:8b296f48696071aafb5a6286ca60d441a7e559b192fc7f94bb63ee93dae98f17
+[?2004h]0;mannsami@lx2-fuxi345: ~/Documents/projektit/DevOps-with-Docker/part01/1.2[01;32mmannsami@lx2-fuxi345[00m:[01;34m~/Documents/projektit/DevOps-with-Docker/part01/1.2[00m$ sudo docker rmi nginx f876bfc1cc63[7Pnginximage ls[3Pps -acontainer prune[10Pps -aimage ls[3Pps -acontainer prune[10Pps -aimage lsrm nginxf876bfc1cc63[6Pi nginx[Ksudo docker -sp a[K[K[K[Kp[K[Ks[Kps -a
+[?2004l
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+[?2004h]0;mannsami@lx2-fuxi345: ~/Documents/projektit/DevOps-with-Docker/part01/1.2[01;32mmannsami@lx2-fuxi345[00m:[01;34m~/Documents/projektit/DevOps-with-Docker/part01/1.2[00m$ sudo docker lsps -a
+[?2004l
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+[?2004h]0;mannsami@lx2-fuxi345: ~/Documents/projektit/DevOps-with-Docker/part01/1.2[01;32mmannsami@lx2-fuxi345[00m:[01;34m~/Documents/projektit/DevOps-with-Docker/part01/1.2[00m$ sudo docker ps -a[3Pls[K[K[K image ls
+[?2004l
+REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
+[?2004h]0;mannsami@lx2-fuxi345: ~/Documents/projektit/DevOps-with-Docker/part01/1.2[01;32mmannsami@lx2-fuxi345[00m:[01;34m~/Documents/projektit/DevOps-with-Docker/part01/1.2[00m$ exit
+[?2004l
+exit
+
+Script done on 2025-01-07 20:09:13+02:00 [COMMAND_EXIT_CODE="0"]
