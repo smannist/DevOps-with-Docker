@@ -1,0 +1,339 @@
+Script started on 2025-01-09 11:50:58+02:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="169" LINES="24"]
+[?2004h]0;mannsami@lx2-fuxi345: ~/Documents/projektit/DevOps-with-Docker/part01/1.5[01;32mmannsami@lx2-fuxi345[00m:[01;34m~/Documents/projektit/DevOps-with-Docker/part01/1.5[00m$ sdo[Ku[K[Kudo docer[K[Kker pull [7mdevopsdockeruh/simple-web-service:ubuntu[27mdevopsdockeruh/simple-web-service:ubuntu
+[?2004l
+[sudo] password for mannsami: 
+ubuntu: Pulling from devopsdockeruh/simple-web-service
+
+[1A[2K
+5d3b2c2d21bb: Pulling fs layer 
+[1B
+[1A[2K
+3fc2062ea667: Pulling fs layer 
+[1B
+[1A[2K
+75adf526d75b: Pulling fs layer 
+[1B
+[1A[2K
+965d4bbb586a: Pulling fs layer 
+[1B
+[1A[2K
+4f4fb700ef54: Pulling fs layer 
+[1B[2A[2K
+965d4bbb586a: Waiting 
+[2B[3A[2K
+75adf526d75b: Downloading [==================================================>]     162B/162B
+[3B[3A[2K
+75adf526d75b: Verifying Checksum 
+[3B[3A[2K
+75adf526d75b: Download complete 
+[3B[4A[2K
+3fc2062ea667: Downloading [============================================>      ]     761B/850B
+[4B[4A[2K
+3fc2062ea667: Downloading [==================================================>]     850B/850B
+[4B[4A[2K
+3fc2062ea667: Verifying Checksum 
+[4B[4A[2K
+3fc2062ea667: Download complete 
+[4B[5A[2K
+5d3b2c2d21bb: Downloading [>                                                  ]  293.1kB/28.57MB
+[5B[5A[2K
+5d3b2c2d21bb: Downloading [=>                                                 ]  878.9kB/28.57MB
+[5B[5A[2K
+5d3b2c2d21bb: Downloading [==>                                                ]  1.469MB/28.57MB
+[5B[5A[2K
+5d3b2c2d21bb: Downloading [===>                                               ]   2.05MB/28.57MB
+[5B[5A[2K
+5d3b2c2d21bb: Downloading [====>                                              ]  2.632MB/28.57MB
+[5B[2A[2K
+965d4bbb586a: Downloading [>                                                  ]  52.52kB/5.117MB
+[2B[1A[2K
+4f4fb700ef54: Downloading [==================================================>]      32B/32B
+[1B[1A[2K
+4f4fb700ef54: Verifying Checksum 
+[1B[1A[2K
+4f4fb700ef54: Download complete 
+[1B[2A[2K
+965d4bbb586a: Downloading [==>                                                ]  273.7kB/5.117MB
+[2B[5A[2K
+5d3b2c2d21bb: Downloading [=====>                                             ]  3.222MB/28.57MB
+[5B[2A[2K
+965d4bbb586a: Downloading [=====>                                             ]  535.8kB/5.117MB
+[2B[5A[2K
+5d3b2c2d21bb: Downloading [======>                                            ]  3.517MB/28.57MB
+[5B[2A[2K
+965d4bbb586a: Downloading [========>                                          ]  863.5kB/5.117MB
+[2B[5A[2K
+5d3b2c2d21bb: Downloading [======>                                            ]  3.812MB/28.57MB
+[5B[2A[2K
+965d4bbb586a: Downloading [============>                                      ]  1.252MB/5.117MB
+[2B[2A[2K
+965d4bbb586a: Downloading [==============>                                    ]  1.514MB/5.117MB
+[2B[5A[2K
+5d3b2c2d21bb: Downloading [=======>                                           ]  4.397MB/28.57MB
+[5B[2A[2K
+965d4bbb586a: Downloading [================>                                  ]  1.645MB/5.117MB
+[2B[5A[2K
+5d3b2c2d21bb: Downloading [========>                                          ]  4.692MB/28.57MB
+[5B[5A[2K
+5d3b2c2d21bb: Downloading [========>                                          ]  4.987MB/28.57MB
+[5B[2A[2K
+965d4bbb586a: Downloading [==================>                                ]  1.907MB/5.117MB
+[2B[2A[2K
+965d4bbb586a: Downloading [=======================>                           ]  2.366MB/5.117MB
+[2B[5A[2K
+5d3b2c2d21bb: Downloading [=========>                                         ]  5.282MB/28.57MB
+[5B[2A[2K
+965d4bbb586a: Downloading [=========================>                         ]  2.562MB/5.117MB
+[2B[5A[2K
+5d3b2c2d21bb: Downloading [=========>                                         ]  5.577MB/28.57MB
+[5B[2A[2K
+965d4bbb586a: Downloading [============================>                      ]   2.89MB/5.117MB
+[2B[5A[2K
+5d3b2c2d21bb: Downloading [==========>                                        ]  5.872MB/28.57MB
+[5B[2A[2K
+965d4bbb586a: Downloading [==============================>                    ]  3.152MB/5.117MB
+[2B[2A[2K
+965d4bbb586a: Downloading [================================>                  ]  3.349MB/5.117MB
+[2B[5A[2K
+5d3b2c2d21bb: Downloading [==========>                                        ]  6.167MB/28.57MB
+[5B[2A[2K
+965d4bbb586a: Downloading [==================================>                ]  3.545MB/5.117MB
+[2B[2A[2K
+965d4bbb586a: Downloading [=====================================>             ]  3.803MB/5.117MB
+[2B[5A[2K
+5d3b2c2d21bb: Downloading [===========>                                       ]  6.462MB/28.57MB
+[5B[2A[2K
+965d4bbb586a: Downloading [========================================>          ]  4.123MB/5.117MB
+[2B[5A[2K
+5d3b2c2d21bb: Downloading [===========>                                       ]  6.757MB/28.57MB
+[5B[2A[2K
+965d4bbb586a: Downloading [============================================>      ]  4.516MB/5.117MB
+[2B[5A[2K
+5d3b2c2d21bb: Downloading [============>                                      ]  7.052MB/28.57MB
+[5B[2A[2K
+965d4bbb586a: Downloading [===============================================>   ]  4.844MB/5.117MB
+[2B[2A[2K
+965d4bbb586a: Verifying Checksum 
+[2B[2A[2K
+965d4bbb586a: Download complete 
+[2B[5A[2K
+5d3b2c2d21bb: Downloading [============>                                      ]  7.346MB/28.57MB
+[5B[5A[2K
+5d3b2c2d21bb: Downloading [=============>                                     ]  7.936MB/28.57MB
+[5B[5A[2K
+5d3b2c2d21bb: Downloading [==============>                                    ]  8.526MB/28.57MB
+[5B[5A[2K
+5d3b2c2d21bb: Downloading [===============>                                   ]  8.821MB/28.57MB
+[5B[5A[2K
+5d3b2c2d21bb: Downloading [================>                                  ]  9.411MB/28.57MB
+[5B[5A[2K
+5d3b2c2d21bb: Downloading [=================>                                 ]     10MB/28.57MB
+[5B[5A[2K
+5d3b2c2d21bb: Downloading [==================>                                ]  10.59MB/28.57MB
+[5B[5A[2K
+5d3b2c2d21bb: Downloading [===================>                               ]  11.18MB/28.57MB
+[5B[5A[2K
+5d3b2c2d21bb: Downloading [=====================>                             ]  12.07MB/28.57MB
+[5B[5A[2K
+5d3b2c2d21bb: Downloading [======================>                            ]  12.66MB/28.57MB
+[5B[5A[2K
+5d3b2c2d21bb: Downloading [=======================>                           ]  13.25MB/28.57MB
+[5B[5A[2K
+5d3b2c2d21bb: Downloading [========================>                          ]  14.13MB/28.57MB
+[5B[5A[2K
+5d3b2c2d21bb: Downloading [==========================>                        ]  15.01MB/28.57MB
+[5B[5A[2K
+5d3b2c2d21bb: Downloading [===========================>                       ]  15.89MB/28.57MB
+[5B[5A[2K
+5d3b2c2d21bb: Downloading [=============================>                     ]  16.78MB/28.57MB
+[5B[5A[2K
+5d3b2c2d21bb: Downloading [==============================>                    ]  17.37MB/28.57MB
+[5B[5A[2K
+5d3b2c2d21bb: Downloading [===============================>                   ]  18.25MB/28.57MB
+[5B[5A[2K
+5d3b2c2d21bb: Downloading [================================>                  ]  18.84MB/28.57MB
+[5B[5A[2K
+5d3b2c2d21bb: Downloading [==================================>                ]  19.43MB/28.57MB
+[5B[5A[2K
+5d3b2c2d21bb: Downloading [==================================>                ]  19.72MB/28.57MB
+[5B[5A[2K
+5d3b2c2d21bb: Downloading [===================================>               ]  20.31MB/28.57MB
+[5B[5A[2K
+5d3b2c2d21bb: Downloading [====================================>              ]   20.9MB/28.57MB
+[5B[5A[2K
+5d3b2c2d21bb: Downloading [======================================>            ]  21.79MB/28.57MB
+[5B[5A[2K
+5d3b2c2d21bb: Downloading [=======================================>           ]  22.38MB/28.57MB
+[5B[5A[2K
+5d3b2c2d21bb: Downloading [========================================>          ]  22.97MB/28.57MB
+[5B[5A[2K
+5d3b2c2d21bb: Downloading [=========================================>         ]  23.55MB/28.57MB
+[5B[5A[2K
+5d3b2c2d21bb: Downloading [==========================================>        ]  24.15MB/28.57MB
+[5B[5A[2K
+5d3b2c2d21bb: Downloading [===========================================>       ]  24.74MB/28.57MB
+[5B[5A[2K
+5d3b2c2d21bb: Downloading [============================================>      ]  25.62MB/28.57MB
+[5B[5A[2K
+5d3b2c2d21bb: Downloading [==============================================>    ]   26.5MB/28.57MB
+[5B[5A[2K
+5d3b2c2d21bb: Downloading [===============================================>   ]  27.38MB/28.57MB
+[5B[5A[2K
+5d3b2c2d21bb: Downloading [================================================>  ]  27.97MB/28.57MB
+[5B[5A[2K
+5d3b2c2d21bb: Downloading [=================================================> ]  28.56MB/28.57MB
+[5B[5A[2K
+5d3b2c2d21bb: Verifying Checksum 
+[5B[5A[2K
+5d3b2c2d21bb: Download complete 
+[5B[5A[2K
+5d3b2c2d21bb: Extracting [>                                                  ]  294.9kB/28.57MB
+[5B[5A[2K
+5d3b2c2d21bb: Extracting [==============>                                    ]  8.258MB/28.57MB
+[5B[5A[2K
+5d3b2c2d21bb: Extracting [=========================>                         ]  14.45MB/28.57MB
+[5B[5A[2K
+5d3b2c2d21bb: Extracting [=========================================>         ]  23.59MB/28.57MB
+[5B[5A[2K
+5d3b2c2d21bb: Extracting [==============================================>    ]  26.84MB/28.57MB
+[5B[5A[2K
+5d3b2c2d21bb: Extracting [==================================================>]  28.57MB/28.57MB
+[5B[5A[2K
+5d3b2c2d21bb: Pull complete 
+[5B[4A[2K
+3fc2062ea667: Extracting [==================================================>]     850B/850B
+[4B[4A[2K
+3fc2062ea667: Extracting [==================================================>]     850B/850B
+[4B[4A[2K
+3fc2062ea667: Pull complete 
+[4B[3A[2K
+75adf526d75b: Extracting [==================================================>]     162B/162B
+[3B[3A[2K
+75adf526d75b: Extracting [==================================================>]     162B/162B
+[3B[3A[2K
+75adf526d75b: Pull complete 
+[3B[2A[2K
+965d4bbb586a: Extracting [>                                                  ]  65.54kB/5.117MB
+[2B[2A[2K
+965d4bbb586a: Extracting [==================================================>]  5.117MB/5.117MB
+[2B[2A[2K
+965d4bbb586a: Pull complete 
+[2B[1A[2K
+4f4fb700ef54: Extracting [==================================================>]      32B/32B
+[1B[1A[2K
+4f4fb700ef54: Extracting [==================================================>]      32B/32B
+[1B[1A[2K
+4f4fb700ef54: Pull complete 
+[1BDigest: sha256:d44e1dce398732e18c7c2bad9416a072f719af33498302b02929d4c112e88d2a
+Status: Downloaded newer image for devopsdockeruh/simple-web-service:ubuntu
+docker.io/devopsdockeruh/simple-web-service:ubuntu
+[?2004h]0;mannsami@lx2-fuxi345: ~/Documents/projektit/DevOps-with-Docker/part01/1.5[01;32mmannsami@lx2-fuxi345[00m:[01;34m~/Documents/projektit/DevOps-with-Docker/part01/1.5[00m$ sudo docker pull devopsdockeruh/simple-web-service:ubuntu[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[7mdevopsdockeruh/simple-web-service:alpine[27mdevopsdockeruh/simple-web-service:alpine
+[?2004l
+alpine: Pulling from devopsdockeruh/simple-web-service
+
+[1A[2K
+ba3557a56b15: Pulling fs layer 
+[1B
+[1A[2K
+1dace236434b: Pulling fs layer 
+[1B
+[1A[2K
+4f4fb700ef54: Pulling fs layer 
+[1B[1A[2K
+4f4fb700ef54: Download complete 
+[1B[3A[2K
+ba3557a56b15: Downloading [>                                                  ]  29.46kB/2.812MB
+[3B[2A[2K
+1dace236434b: Downloading [>                                                  ]  51.93kB/5.117MB
+[2B[3A[2K
+ba3557a56b15: Downloading [===>                                               ]  175.8kB/2.812MB
+[3B[2A[2K
+1dace236434b: Downloading [==>                                                ]  278.5kB/5.117MB
+[2B[3A[2K
+ba3557a56b15: Downloading [======>                                            ]  343.3kB/2.812MB
+[3B[2A[2K
+1dace236434b: Downloading [=====>                                             ]  606.2kB/5.117MB
+[2B[3A[2K
+ba3557a56b15: Downloading [=================>                                 ]  973.1kB/2.812MB
+[3B[2A[2K
+1dace236434b: Downloading [==========>                                        ]  1.065MB/5.117MB
+[2B[3A[2K
+ba3557a56b15: Downloading [=========================>                         ]  1.436MB/2.812MB
+[3B[2A[2K
+1dace236434b: Downloading [===============>                                   ]  1.588MB/5.117MB
+[2B[3A[2K
+ba3557a56b15: Downloading [===================================>               ]  1.993MB/2.812MB
+[3B[2A[2K
+1dace236434b: Downloading [====================>                              ]  2.108MB/5.117MB
+[2B[3A[2K
+ba3557a56b15: Downloading [========================================>          ]  2.292MB/2.812MB
+[3B[2A[2K
+1dace236434b: Downloading [=====================>                             ]  2.239MB/5.117MB
+[2B[3A[2K
+ba3557a56b15: Downloading [================================================>  ]  2.718MB/2.812MB
+[3B[2A[2K
+1dace236434b: Downloading [============================>                      ]  2.894MB/5.117MB
+[2B[3A[2K
+ba3557a56b15: Downloading [==================================================>]  2.812MB/2.812MB
+[3B[3A[2K
+ba3557a56b15: Download complete 
+[3B[3A[2K
+ba3557a56b15: Extracting [>                                                  ]  32.77kB/2.812MB
+[3B[3A[2K
+ba3557a56b15: Extracting [==================================================>]  2.812MB/2.812MB
+[3B[3A[2K
+ba3557a56b15: Pull complete 
+[3B[2A[2K
+1dace236434b: Downloading [================================>                  ]  3.283MB/5.117MB
+[2B[2A[2K
+1dace236434b: Downloading [========================================>          ]  4.135MB/5.117MB
+[2B[2A[2K
+1dace236434b: Downloading [==============================================>    ]  4.721MB/5.117MB
+[2B[2A[2K
+1dace236434b: Verifying Checksum 
+[2B[2A[2K
+1dace236434b: Download complete 
+[2B[2A[2K
+1dace236434b: Extracting [>                                                  ]  65.54kB/5.117MB
+[2B[2A[2K
+1dace236434b: Extracting [==================================================>]  5.117MB/5.117MB
+[2B[2A[2K
+1dace236434b: Pull complete 
+[2B[1A[2K
+4f4fb700ef54: Extracting [==================================================>]      32B/32B
+[1B[1A[2K
+4f4fb700ef54: Extracting [==================================================>]      32B/32B
+[1B[1A[2K
+4f4fb700ef54: Pull complete 
+[1BDigest: sha256:dd4d367476f86b7d7579d3379fe446ae5dfce25480903fb0966fc2e5257e0543
+Status: Downloaded newer image for devopsdockeruh/simple-web-service:alpine
+docker.io/devopsdockeruh/simple-web-service:alpine
+[?2004h]0;mannsami@lx2-fuxi345: ~/Documents/projektit/DevOps-with-Docker/part01/1.5[01;32mmannsami@lx2-fuxi345[00m:[01;34m~/Documents/projektit/DevOps-with-Docker/part01/1.5[00m$ sudo docker image ls
+[?2004l
+REPOSITORY                          TAG       IMAGE ID       CREATED       SIZE
+devopsdockeruh/simple-web-service   ubuntu    4e3362e907d5   3 years ago   83MB
+devopsdockeruh/simple-web-service   alpine    fd312adc88e0   3 years ago   15.7MB
+[?2004h]0;mannsami@lx2-fuxi345: ~/Documents/projektit/DevOps-with-Docker/part01/1.5[01;32mmannsami@lx2-fuxi345[00m:[01;34m~/Documents/projektit/DevOps-with-Docker/part01/1.5[00m$ sudo docke rur[K[K[K[Kr rur[K[K[K[K run  -[K[K[K -d- [K[K[K [Kd -[K[K --name simple web[K[K[K[Kweb [7mdevopsdockeruh/simple-web-service:alpine[27mdevopsdockeruh/simple-web-service:alpine
+[?2004l
+a2cc9549f2f0679be85acf17a337a497cdd020f3e7c04b9411070b1bffa62e31
+[?2004h]0;mannsami@lx2-fuxi345: ~/Documents/projektit/DevOps-with-Docker/part01/1.5[01;32mmannsami@lx2-fuxi345[00m:[01;34m~/Documents/projektit/DevOps-with-Docker/part01/1.5[00m$ sudo docker exec -it simpleweb sh
+[?2004l
+/usr/src/app # [6ntail -f ./text.log
+2025-01-09 09:52:33 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2025-01-09 09:52:35 +0000 UTC
+2025-01-09 09:52:37 +0000 UTC
+2025-01-09 09:52:39 +0000 UTC
+2025-01-09 09:52:41 +0000 UTC
+2025-01-09 09:52:43 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2025-01-09 09:52:45 +0000 UTC
+2025-01-09 09:52:47 +0000 UTC
+2025-01-09 09:52:49 +0000 UTC
+^C
+/usr/src/app # [6nexit
+[?2004h]0;mannsami@lx2-fuxi345: ~/Documents/projektit/DevOps-with-Docker/part01/1.5[01;32mmannsami@lx2-fuxi345[00m:[01;34m~/Documents/projektit/DevOps-with-Docker/part01/1.5[00m$ exti[K[K[Kxit
+[?2004l
+exit
+
+Script done on 2025-01-09 11:52:55+02:00 [COMMAND_EXIT_CODE="130"]
