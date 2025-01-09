@@ -1,0 +1,22 @@
+Script started on 2025-01-09 12:01:08+02:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="169" LINES="24"]
+
+mannsami@lx2-fuxi345:~/Documents/projektit/DevOps-with-Docker/part01/1.6$ sudo docker run -it devopsdockeruh/pull_exercise
+[sudo] password for mannsami:
+Unable to find image 'devopsdockeruh/pull_exercise:latest' locally
+latest: Pulling from devopsdockeruh/pull_exercise
+
+8e402f1a9c57: Pulling fs layer
+5e2195587d10: Pulling fs layer
+6f595b2fc66d: Pulling fs layer
+165f32bf4e94: Pulling fs layer
+Digest:4sha256:7c0635934049afb9ca0481fb6a58b16100f990a0d62c8665b9cfb5c9ada8a99f 9.267kB/9.267kBB
+Status: Downloaded newer image for devopsdockeruh/pull_exercise:latest
+
+Give me the password: basics
+You found the correct password. Secret message is:
+"This is the secret message"
+
+mannsami@lx2-fuxi345:~/Documents/projektit/DevOps-with-Docker/part01/1.6$ exit
+exit
+
+Script done on 2025-01-09 12:03:50+02:00 [COMMAND_EXIT_CODE="0"]
