@@ -1,0 +1,13 @@
+mannsami@lx2-fuxi345:~/Documents/projektit/DevOps-with-Docker/part01/1.10$ sudo docker run -p 3000:8080 devopsdockeruh/simple-web-service server
+
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:   export GIN_MODE=release
+ - using code:  gin.SetMode(gin.ReleaseMode)
+
+Then from another terminal we can do curl:
+
+(3.12.1) mannsami@lx2-fuxi345:~/Documents/projektit/DevOps-with-Docker$ curl http://localhost:3000
+
+which returns: {"message":"You connected to the following path: /","path":"/"}
