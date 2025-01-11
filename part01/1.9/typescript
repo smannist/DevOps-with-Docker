@@ -1,0 +1,17 @@
+Script started on 2025-01-11 08:14:24+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="209" LINES="24"]
+[?2004h]0;mannsami@lx2-fuxi345: ~/Documents/projektit/DevOps-with-Docker/part01/1.9[01;32mmannsami@lx2-fuxi345[00m:[01;34m~/Documents/projektit/DevOps-with-Docker/part01/1.9[00m$ exitsudo docker run -v "$(pwd)/text.log:/usr/src/app/text.log" devopsdockeruh/simple-web-service"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpython /home/mannsami/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/printEnvVariablesToFile.py /home/mannsami/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/deactivate/bash/envVars.txt[A[42Psudo docker run -v "$(pwd)/text.log:/usr/src/app/text.log" devopsdockeruh/simple-web-service"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[?2004l[sudo] password for mannsami: 
+Starting log output
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+^C[?2004h]0;mannsami@lx2-fuxi345: ~/Documents/projektit/DevOps-with-Docker/part01/1.9[01;32mmannsami@lx2-fuxi345[00m:[01;34m~/Documents/projektit/DevOps-with-Docker/part01/1.9[00m$ exit
+[?2004lexit
+
+Script done on 2025-01-11 08:14:51+02:00 [COMMAND_EXIT_CODE="2"]
