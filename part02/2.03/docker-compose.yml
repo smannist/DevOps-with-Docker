@@ -1,0 +1,20 @@
+# assuming dockerfiles are the same as created in 1.14
+# also here im just calling each one "Dockerfile" instead of e.g. Dockerfile-front
+# also assumes the projects are cloned, obviously
+
+services:
+  backend:
+    build:
+      context: ./example-backend
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+
+  frontend:
+    build:
+      context: ./example-frontend
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    depends_on:
+      - backend
