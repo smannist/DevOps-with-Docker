@@ -1,0 +1,8 @@
+services:
+  simple-web-service:
+    image: devopsdockeruh/simple-web-service
+    container_name: simple-web-service
+    volumes:
+      - ./logs/text.log:/usr/src/app/logs/text.log
+    ports:
+      - 8080:8080
