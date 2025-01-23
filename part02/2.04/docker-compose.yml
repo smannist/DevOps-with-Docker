@@ -1,0 +1,22 @@
+# added env REDIS_HOST=redis to backend dockerfile, otherwise dockerfiles are the same
+
+services:
+  backend:
+    build:
+      context: ./example-backend
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+
+  frontend:
+    build:
+      context: ./example-frontend
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    depends_on:
+      - backend
+
+  redis:
+    image: redis:latest
+    restart: always
