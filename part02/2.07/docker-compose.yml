@@ -1,0 +1,39 @@
+# Dockerfiles are the same as in last exercise, only volume via bind mount was added.
+
+services:
+  backend:
+    build:
+      context: ./example-backend
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+
+  frontend:
+    build:
+      context: ./example-frontend
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    depends_on:
+      - backend
+
+  redis:
+    image: redis:latest
+    restart: unless-stopped
+    depends_on:
+      - backend
+
+  db:
+    image: postgres:13.2-alpine
+    restart: unless-stopped
+    environment:
+      - POSTGRES_PASSWORD=password
+    volumes:
+      - type: bind
+        source: ./database
+        target: /var/lib/postgresql/data
+    depends_on:
+      - backend
+
+volumes:
+  database:
