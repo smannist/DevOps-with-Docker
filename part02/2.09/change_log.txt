@@ -1,0 +1,2 @@
+changed environment variable urls in dockerfiles to match the
+proxies urls
