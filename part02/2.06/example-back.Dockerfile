@@ -1,0 +1,18 @@
+FROM golang:1.16
+
+WORKDIR /app
+
+ENV REQUEST_ORIGIN=http://localhost:5000
+ENV REDIS_HOST=redis
+ENV POSTGRES_HOST=db
+ENV POSTGRES_USER=postgres
+ENV POSTGRES_PASSWORD=password
+ENV POSTGRES_DATABASE=postgres
+
+COPY . .
+
+RUN go build
+
+EXPOSE 8080
+
+CMD ["./server"]
