@@ -1,0 +1,5 @@
+I already have plenty of projects that are containerized to some extent
+
+e.g Portfolio: https://github.com/smannist/portfolio/tree/main
+
+Simply runs the web app (the portfolio) in a node container, README has all the info needed to run the app with Docker
